@@ -21,3 +21,10 @@ variable "alb_security_group_name" {
   type        = string
   default     = "sec-group-alb"
 }
+
+variable "deployer_name" {
+    description = "Name of the deployer"
+    type = string
+    default = "Mateo Presa"
+  
+}
