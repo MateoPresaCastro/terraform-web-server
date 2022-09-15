@@ -1,4 +1,3 @@
-# Web Server Example
 
 This folder contains an example [Terraform](https://www.terraform.io/) configuration that deploys a cluster of web servers 
 (using [EC2](https://aws.amazon.com/ec2/) and [Auto Scaling](https://aws.amazon.com/autoscaling/)) and a load balancer
@@ -20,6 +19,8 @@ environment variables:
 export AWS_ACCESS_KEY_ID=(your access key id)
 export AWS_SECRET_ACCESS_KEY=(your secret access key)
 ```
+Change the deployer name in `variables.tf` to yours.
+
 
 Deploy the code:
 
