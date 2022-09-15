@@ -13,7 +13,7 @@ variable "alb_name" {
 variable "instance_security_group_name" {
   description = "The name of the security group for the EC2 Instances"
   type        = string
-  default     = "web-server"
+  default     = "sec-group-ec2"
 }
 
 variable "alb_security_group_name" {
