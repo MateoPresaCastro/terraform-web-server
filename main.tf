@@ -20,7 +20,7 @@ resource "aws_launch_configuration" "example" {
 
   user_data = <<-EOF
               #!/bin/bash
-              echo "<html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="styles.css"><title>Terraform Project</title></head> <body><h1>Hi,</h1><p>This page was deployed with <span class="bold">Terraform</span></p></body></html>"> index.html
+              echo "<html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="styles.css"><title>Terraform Project</title></head> <body><h1>Hi,</h1><p>This webserver cluster and load balancer were deployed with <span class="bold">Terraform</span></p></body></html>"> index.html
               echo "body {display: flex;align-items: center;justify-content: center;flex-direction: column;font: 100% / 1.5 "Open Sans", Helvetica, Arial, sans-serif;color: rgb(29, 29, 29);margin: 0;border: 0;}h1 {margin: 0;margin-top: 45vh;}span.bold {font-weight: bold;}p {margin: 0;margin-top: 1rem;font-weight: lighter;}" > styles.css
               nohup busybox httpd -f -p ${var.server_port} &
               EOF
