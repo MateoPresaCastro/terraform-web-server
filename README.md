@@ -19,7 +19,7 @@ environment variables:
 export AWS_ACCESS_KEY_ID=(your access key id)
 export AWS_SECRET_ACCESS_KEY=(your secret access key)
 ```
-Change the deployer name in `variables.tf` to yours.
+Change the default deployer name in `variables.tf` to yours.
 
 
 Deploy the code:
