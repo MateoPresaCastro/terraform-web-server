@@ -36,10 +36,18 @@ Clean up when you're done:
 ```
 terraform destroy
 ```
+##Dependency graph
 
 You can run `terraform graph` and use [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/) to see the dependency graph:
 
 ```
 terraform graph
 ```
+
+Example:
+
+![graphviz](https://user-images.githubusercontent.com/96750403/190396200-3cd19b3b-ee67-447e-88b9-c4fac3533ba5.png)
+
+
+
 
