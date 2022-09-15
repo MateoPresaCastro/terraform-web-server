@@ -28,11 +28,7 @@ terraform init
 terraform apply
 ```
 
-When the `apply` command completes, it will output the DNS name of the load balancer. To test the load balancer copy the DNS name and paste it in your browser or:
-
-```
-curl http://<alb_dns_name>/
-```
+When the `apply` command completes, it will output the DNS name of the load balancer. To test the load balancer copy the DNS name and paste it in your browser.
 
 Clean up when you're done:
 
