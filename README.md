@@ -44,7 +44,7 @@ You can run `terraform graph` and use [GraphvizOnline](https://dreampuf.github.i
 terraform graph
 ```
 
-Example:
+Graph from this Terraform configuration:
 
 ![graphviz](https://user-images.githubusercontent.com/96750403/190396200-3cd19b3b-ee67-447e-88b9-c4fac3533ba5.png)
 
