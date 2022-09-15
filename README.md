@@ -36,7 +36,7 @@ Clean up when you're done:
 ```
 terraform destroy
 ```
-##Dependency graph
+## Dependency graph
 
 You can run `terraform graph` and use [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/) to see the dependency graph:
 
